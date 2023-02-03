@@ -1,3 +1,5 @@
-from math import pi
-radius = float(input('enter the radius'))
-print(str(pi* radius**radius))
+values = input('input some coma separated numbers ')
+list = values.split(',')
+tuple=tuple(list)
+print('List:', list)
+print('Tuple:',tuple)
