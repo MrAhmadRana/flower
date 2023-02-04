@@ -1,5 +1,5 @@
-age = int(input('enter your age'))
-if age>18:
-    print('you are eligible')
+num=int(input('enter number'))
+if num%2==0:
+    print('even')
 else:
-    print('you are not eligible')
+    print('odd')
