@@ -1,5 +1,5 @@
-values = input('input some coma separated numbers ')
-list = values.split(',')
-tuple=tuple(list)
-print('List:', list)
-print('Tuple:',tuple)
+age = int(input('enter your age'))
+if age>18:
+    print('you are eligible')
+else:
+    print('you are not eligible')
