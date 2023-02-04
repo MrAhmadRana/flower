@@ -1,5 +1,4 @@
 num=int(input('enter number'))
-if num%2==0:
-    print('even')
-else:
-    print('odd')
+if num%5==0:
+    print('hello')
+else:print('bye')
